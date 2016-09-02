@@ -13,3 +13,5 @@
 *.orig
 /.vs/
 /Build/
+*.VC.db
+*.VC.VC.opendb
