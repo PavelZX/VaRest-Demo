@@ -5,8 +5,8 @@ using System.Collections.Generic;
 
 public class VaRestDemoTarget : TargetRules
 {
-	public VaRestDemoTarget(TargetInfo Target)
-	{
+	public VaRestDemoTarget(TargetInfo Target) : base(Target)
+    {
 		Type = TargetType.Game;
 	}
 

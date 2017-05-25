@@ -4,8 +4,8 @@ using UnrealBuildTool;
 
 public class VaRestDemo : ModuleRules
 {
-	public VaRestDemo(TargetInfo Target)
-	{
+	public VaRestDemo(ReadOnlyTargetRules Target) : base(Target)
+    {
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] { "VaRestPlugin" });
