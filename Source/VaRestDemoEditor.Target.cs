@@ -9,6 +9,8 @@ public class VaRestDemoEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 
-		ExtraModuleNames.AddRange( new string[] { "VaRestDemo" } );
+        bUseUnityBuild = false;
+
+        ExtraModuleNames.AddRange( new string[] { "VaRestDemo" } );
 	}
 }

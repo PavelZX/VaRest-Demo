@@ -9,6 +9,8 @@ public class VaRestDemoTarget : TargetRules
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "VaRestDemo" } );
+        bUseUnityBuild = false;
+
+        ExtraModuleNames.AddRange( new string[] { "VaRestDemo" } );
 	}
 }
